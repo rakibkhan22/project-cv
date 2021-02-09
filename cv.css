@@ -1,0 +1,89 @@
+*{margin: 0;padding:0;}
+
+body{background-color: azure;}
+
+#container{
+  font-family: sans-serif;
+  background-color: rgb(238, 238, 238);
+  max-width: 1000px;
+  margin: auto;
+  padding:20px;
+}
+
+h1, h2, h3, h4, h5, h6{color: green; font-weight: bold;}
+
+header img{
+    height:150px;
+    weight:150px;
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    float:left ;
+}  
+ 
+#name{
+    float:left;
+    padding: 40px 30px;
+}
+
+#address{
+     float: right;
+     padding: 30px;
+     
+ }
+#address a{text-decoration: none;
+color:grey;
+font-weight: bold;}
+#address a:hover{
+    cursor: progress;
+    color:hotpink;
+}
+.clean-div{clear:both;}
+
+header hr{border-bottom:4px solid black;
+margin: 40px 0px;border-top:none;}
+
+.personal-info{
+   width:30%;
+   float: left;
+}
+
+.personal-info-detail{
+    width: 70%;
+    float:right;
+
+}
+
+main hr{
+    margin:35px 0px;
+    border-bottom:3px solid black;
+    border-top:none;
+
+}
+
+ul{padding-left: 13px;}
+
+#bsc{
+    float:left;
+}
+
+#hsc{float: right;padding-right: 100px;}
+
+.footer-sec{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top:20px;
+   
+
+}
+
+.footer-sec a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+   
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.footer-sec p{padding:10px;}
